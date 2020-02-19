@@ -20,10 +20,15 @@ public class Apartment extends Residential {
 	}
 	
 	//Methods
+	/**
+	 * the draw method prints a message
+	 */
 	public void draw() {
 		System.out.println("Peekaboo, I see you");
 	}
-	
+	/**
+	 * display data appends the data to the toString to be printed to the screen
+	 */
 	public String displayData() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Number of Rentable Units: " + numRentableUnits + "\n");
@@ -33,6 +38,11 @@ public class Apartment extends Residential {
 	}
 
 	//Getters and Setters
+	/**
+	 * getters return the value of their respective variable
+	 * setters set this.variable equal to the value of the variable
+	 * @return
+	 */
 	public int getNumRentableUnits() {
 		return numRentableUnits;
 	}

@@ -14,9 +14,15 @@ public class SingleFamilyHome extends Residential {
 	}
 	
 	//methods
+	/**
+	 * the draw method prints a message
+	 */
 	public void draw() {
 		System.out.println("Hellooo!");
 	}
+	/**
+	 * display data appends the data to the toString to be printed to the screen
+	 */
 	public String displayData() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Garage: " + garage + "\n");
@@ -25,6 +31,11 @@ public class SingleFamilyHome extends Residential {
 
 	
 	//Getters and Setters
+	/**
+	 * getters return the value of their respective variable
+	 * setters set this.variable equal to the value of the variable
+	 * @return
+	 */
 	public boolean isGarage() {
 		return garage;
 	}

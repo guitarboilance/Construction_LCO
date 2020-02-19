@@ -25,10 +25,15 @@ public class Building {
 	
 	
 	//Methods
+	/**
+	 * the draw method prints a message
+	 */
 	public void draw() {
 		System.out.println("Drawing code for <<Object Type>>");
 	}//end draw method
-	
+	/**
+	 * display data appends the data to the toString to be printed to the screen
+	 */
 	public String displayData() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Project Name: " + projectName + "\n");
@@ -48,6 +53,11 @@ public class Building {
 */	
 	
 	//Getters and Setters
+	/**
+	 * getters return the value of their respective variable
+	 * setters set this.variable equal to the value of the variable
+	 * @return
+	 */
 	public String getProjectName() {
 		return projectName;
 	}

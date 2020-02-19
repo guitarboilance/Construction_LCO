@@ -23,6 +23,11 @@ public class Residential extends Building {
 	
 	
 	//Getters and Setters
+	/**
+	 * getters return the value of their respective variable
+	 * setters set this.variable equal to the value of the variable
+	 * @return
+	 */
 	public int getNumBedrooms() {
 		return numBedrooms;
 	}

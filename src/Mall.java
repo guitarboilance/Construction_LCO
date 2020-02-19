@@ -21,11 +21,16 @@ public class Mall extends Business {
 		numParkingSpaces = 0;
 	}//end preferred Mall constructor
 	
+	/**
+	 * the draw method prints a message
+	 */
 	//Methods
 		public void draw() {
 			System.out.println("Ring, Ring, you called me");
 		}
-		
+		/**
+		 * display data appends the data to the toString to be printed to the screen
+		 */
 		public String displayData() {
 			StringBuilder sb = new StringBuilder();
 			sb.append("Number of Rented Units: " + numRentedUnits + "\n");
@@ -36,7 +41,11 @@ public class Mall extends Business {
 		
 	
 	//Getters and Setters
-
+	/**
+	 * getters return the value of their respective variable
+	 * setters set this.variable equal to the value of the variable
+	 * @return
+	 */
 	public int getNumRentedUnits() {
 		return numRentedUnits;
 	}
